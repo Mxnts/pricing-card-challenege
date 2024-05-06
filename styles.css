@@ -1,0 +1,74 @@
+body {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.priceGrid { 
+    margin: auto;
+    width: 50%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    border-radius: 5px;
+}
+
+.joinComm {
+    
+    
+    padding: 20px;
+}
+
+.bottom {
+    display: flex;
+    color: white;
+}
+
+.monthSub {
+    flex: 50%;
+    padding: 20px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+}
+
+.whyUs {
+    flex: 50%;
+    padding: 20px;
+    background-color:  hsl(179, 87%, 44%);
+    border-bottom-right-radius: 5px;
+}
+
+.price {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.perMonth {
+    display: inline;
+    font-size: 0.75rem;
+    opacity: 0.8;
+
+}
+
+button {
+    background-color: rgb(192, 223, 52);
+    color: white;
+    box-shadow: none;
+    font-family: "Karla", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d2e869;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8 rem;
+    opacity: 0.8;
+}
